@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_FB_10": {
+        "id": "FB_10",
+        "name": "Yggdrasil",
+        "nameEsp": "Yggdrasil",
+        "type": "Heroic",
+        "nameAbility":"Retaliate",
+        "speed": 3.85,
+        "life": 2217,
+        "atk1p": 1120,
+        "ability": 10,
+        "abilityp": 20,
+        "atk2p": 1120,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fb_10.png"
+    },
     "Specimen_ED_09": {
         "id": "ED_09",
         "name": "Rox McRain",
