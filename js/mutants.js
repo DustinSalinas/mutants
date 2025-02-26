@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             mutantsData = data;
-            console.log("✅ Mutants loaded:", mutantsData);
+            console.log("✅ Mutants loaded");
             fillMutantsTable(); // Llenamos la tabla después de cargar los datos
         })
         .catch(error => console.error("❌ Error loading JSON:", error));
