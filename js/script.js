@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             mutantsData = data;
-            console.log("✅ Mutants loaded");
             fillMutantsTable();
         })
         .catch(error => console.error("❌ Error loading JSON:", error));
