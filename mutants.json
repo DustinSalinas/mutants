@@ -3463,5 +3463,20 @@
         "atk2p": 1911,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ab_13.png"
+    },
+    "Specimen_ED_13": {
+        "id": "ED_13",
+        "name": "Medinosaur",
+        "nameEsp": "Medinosaur",
+        "type": "Legendary",
+        "nameAbility":"Wound",
+        "speed": 6.25,
+        "life": 1675,
+        "atk1p": 1023,
+        "ability": 15,
+        "abilityp": 30,
+        "atk2p": 1023,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ed_13.png"
     }
 }
