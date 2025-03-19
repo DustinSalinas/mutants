@@ -937,10 +937,10 @@
         "nameAbility":"Retaliate",
         "speed": 4.35,
         "life": 1977,
-        "atk1p": 750,
+        "atk1p": 700,
         "ability": 40,
         "abilityp": 60,
-        "atk2p": 750,
+        "atk2p": 700,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_bd_99.png"
     },
