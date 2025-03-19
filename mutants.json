@@ -929,6 +929,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ab_05_gachaboss.png"
     },
+    "Specimen_BD_99": {
+        "id": "BD_99",
+        "name": "Tengu",
+        "nameEsp": "Tengu",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 4.35,
+        "life": 1977,
+        "atk1p": 491,
+        "ability": 40,
+        "abilityp": 60,
+        "atk2p": 491,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_bd_99.png"
+    },
     "Specimen_EC_06": {
         "id": "EC_06",
         "name": "Zeus",
