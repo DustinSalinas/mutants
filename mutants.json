@@ -974,6 +974,36 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_FA_09": {
+        "id": "FA_09",
+        "name": "H.U.N.T.3.R",
+        "nameEsp": "Zenguru",
+        "type": "Legendary",
+        "nameAbility":"Weaken",
+        "speed": 5.00,
+        "life": 1785,
+        "atk1p": 727,
+        "ability": 10,
+        "abilityp": 15,
+        "atk2p": 727,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fa_09.png"
+    },
+    "Specimen_AA_09": {
+        "id": "AA_09",
+        "name": "H.U.N.T.3.R",
+        "nameEsp": "H.U.N.T.3.R",
+        "type": "Legendary",
+        "nameAbility":"Shield",
+        "speed": 7.69,
+        "life": 1938,
+        "atk1p": 680,
+        "ability": 10,
+        "abilityp": 15,
+        "atk2p": 339,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_aa_09.png"
+    },
     "Specimen_CF_10": {
         "id": "CF_10",
         "name": "Arelvam",
