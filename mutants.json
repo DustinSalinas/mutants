@@ -974,6 +974,36 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_CF_10": {
+        "id": "CF_10",
+        "name": "Tsar Bomba",
+        "nameEsp": "Arelvam",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 4.35,
+        "life": 1977,
+        "atk1p": 456,
+        "ability": 15,
+        "abilityp": 30,
+        "atk2p": 456,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cf_10.png"
+    },
+    "Specimen_CE_09": {
+        "id": "CE_09",
+        "name": "Tsar Bomba",
+        "nameEsp": "Zar Bomba",
+        "type": "Heroic",
+        "nameAbility":"Retaliate",
+        "speed": 4.35,
+        "life": 1867,
+        "atk1p": 911,
+        "ability": 10,
+        "abilityp": 30,
+        "atk2p": 911,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ce_09.png"
+    },
     "Specimen_EF_09": {
         "id": "EF_09",
         "name": "Mage Ryzafredd",
@@ -983,8 +1013,8 @@
         "speed": 4.17,
         "life": 1864,
         "atk1p": 884,
-        "ability": 20,
-        "abilityp": 45,
+        "ability": 10,
+        "abilityp": 30,
         "atk2p": 884,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ef_09.png"
