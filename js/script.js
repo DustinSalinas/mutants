@@ -50,7 +50,16 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateStarLevels(mutant) {
         starLevelSelect.innerHTML = ""; // Limpiar las opciones previas
         if (mutant.stars) {
-            if (mutant.type === "Gacha") {
+            if (mutant.name === "Vivaldi" || mutant.nameEsp === "Vivaldi") {
+                // Si el mutante es de tipo Gacha, solo mostrar la opción "Gacha"
+                const seasons = ["Base", "Spring", "Autumn", "Winter", "Summer", "Seasonal"];
+                seasons.forEach(season => {
+                    const option = document.createElement("option");
+                    option.value = season;
+                    option.textContent = season;
+                    starLevelSelect.appendChild(option);
+                });
+            }else if (mutant.type === "Gacha") {
                 // Si el mutante es de tipo Gacha, solo mostrar la opción "Gacha"
                 const option = document.createElement("option");
                 option.value = "Gacha";
@@ -137,7 +146,81 @@ document.addEventListener("DOMContentLoaded", () => {
         let rawLife, rawAtk1p, rawAtk2p, rawAbility;
 
         // Si el mutante es de tipo "Gacha", el cálculo es diferente
-        if (mutant.type === "Gacha") {
+        if (mutant.name === "Vivaldi" || mutant.nameEsp === "Vivaldi") {
+            // Lógica de estadísticas base para Vivaldi dependiendo de la estación
+            switch (starLevel) {
+                case "Spring":
+                    rawLife = 2925 * ((level / 10) + 0.9); 
+                    rawAtk1p = 1055 * ((level / 10) + 0.9);
+                    rawAtk2p = 1055 * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * 1055 * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * 1055 * ((level / 10) + 0.9);
+                    }
+                    break;
+                case "Summer":
+                    rawLife = 3014 * ((level / 10) + 0.9);
+                    rawAtk1p = 1024 * ((level / 10) + 0.9);
+                    rawAtk2p = 1024 * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * 1024 * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * 1024 * ((level / 10) + 0.9);
+                    }
+                    break;
+                case "Autumn":
+                    rawLife = 2836 * ((level / 10) + 0.9);
+                    rawAtk1p = 1086 * ((level / 10) + 0.9);
+                    rawAtk2p = 1086 * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * 1086 * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * 1086 * ((level / 10) + 0.9);
+                    }
+                    break;
+                case "Winter":
+                    rawLife = 3191 * ((level / 10) + 0.9);
+                    rawAtk1p = 960 * ((level / 10) + 0.9);
+                    rawAtk2p = 960 * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * 960 * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * 960 * ((level / 10) + 0.9);
+                    }
+                    break;
+                case "Winter Bug":
+                    rawLife = 3191 * ((level / 10) + 0.9) * 1.75;
+                    rawAtk1p = 960 * ((level / 10) + 0.9) * 1.75;
+                    rawAtk2p = 960 * ((level / 10) + 0.9) * 1.75;
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * 960 * ((level / 10) + 0.9) * 1.75;
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * 960 * ((level / 10) + 0.9) * 1.75;
+                    }
+                    break;
+                case "Seasonal":
+                    rawLife = 2600 * ((level / 10) + 0.9);
+                    rawAtk1p = 1170 * ((level / 10) + 0.9);
+                    rawAtk2p = 1170 * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * 1170 * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * 1170 * ((level / 10) + 0.9);
+                    }
+                    break;
+                case "Base":
+                    rawLife = mutant.life * ((level / 10) + 0.9);
+                    rawAtk1p = mutant.atk1p * ((level / 10) + 0.9);
+                    rawAtk2p = mutant.atk2p * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * mutant.atk1p * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * mutant.atk1p * ((level / 10) + 0.9);
+                    }
+                    break;
+            }
+        } else if (mutant.type === "Gacha") {
             // Extra lógica para el cálculo de Gacha (esto es solo un ejemplo)
             rawLife = mutant.life * ((level / 10) + 0.9) * bonus; // Multiplicador extra para Gacha
             rawAtk1p = mutant.atk1p * ((level / 10) + 0.9) * bonus;
@@ -235,6 +318,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 mutantImage.src = baseImageUrl.replace(".png", "_gold.png");
             } else if (starLevel === "Platinum") {
                 mutantImage.src = baseImageUrl.replace(".png", "_platinum.png");
+            } else if (starLevel === "Spring") {
+                mutantImage.src = baseImageUrl.replace(".png", "_spring.png");
+            } else if (starLevel === "Autumn") {
+                mutantImage.src = baseImageUrl.replace(".png", "_autumn.png");
+            } else if (starLevel === "Winter") {
+                mutantImage.src = baseImageUrl.replace(".png", "_winter.png");
+            } else if (starLevel === "Winter Bug") {
+                mutantImage.src = baseImageUrl.replace(".png", "_winter.png");
+            } else if (starLevel === "Summer") {
+                mutantImage.src = baseImageUrl.replace(".png", "_summer.png");
             } else {
                 mutantImage.src = baseImageUrl; // Para "No Star" o si no se selecciona ninguna estrella
             }
