@@ -2543,10 +2543,10 @@
         "speed": 6.25,
         "life": 2955,
         "atk1p": 1045,
-        "ability": 12,
+        "ability": 20,
         "abilityp": 30,
         "atk2p": 1045,
-        "stars": ["No Star"],
+        "stars": ["Spring", "Autumn", "Winter", "Summer"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fe_13.png"
     },
     "Specimen_DA_12": {
