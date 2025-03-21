@@ -974,6 +974,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_EF_09": {
+        "id": "EF_09",
+        "name": "Mage Ryzafredd",
+        "nameEsp": "Mago Ryzafredd",
+        "type": "Legendary",
+        "nameAbility":"Boost",
+        "speed": 4.17,
+        "life": 1864,
+        "atk1p": 884,
+        "ability": 20,
+        "abilityp": 45,
+        "atk2p": 884,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ef_09.png"
+    },
     "Specimen_DA_10": {
         "id": "DA_10",
         "name": "Hawkeye",
