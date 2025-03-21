@@ -982,10 +982,10 @@
         "nameAbility":"Weaken",
         "speed": 4.65,
         "life": 2279,
-        "atk1p": 1087,
+        "atk1p": 802,
         "ability": 10,
         "abilityp": 20,
-        "atk2p": 624,
+        "atk2p": 400,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ff_09.png"
     },
