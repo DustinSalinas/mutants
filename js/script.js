@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (mutant.stars) {
             if (mutant.name === "Vivaldi" || mutant.nameEsp === "Vivaldi") {
                 // Si el mutante es de tipo Gacha, solo mostrar la opción "Gacha"
-                const seasons = ["Base", "Spring", "Autumn", "Winter", "Summer", "Seasonal"];
+                const seasons = ["Autumn", "Seasonal", "Spring", "Summer", "Winter"];
                 seasons.forEach(season => {
                     const option = document.createElement("option");
                     option.value = season;
@@ -209,16 +209,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         rawAbility = mutant.abilityp / 100 * 1170 * ((level / 10) + 0.9);
                     }
                     break;
-                case "Base":
-                    rawLife = mutant.life * ((level / 10) + 0.9);
-                    rawAtk1p = mutant.atk1p * ((level / 10) + 0.9);
-                    rawAtk2p = mutant.atk2p * ((level / 10) + 0.9);
-                    if (level < 25) {
-                        rawAbility = mutant.ability / 100 * mutant.atk1p * ((level / 10) + 0.9);
-                    } else {
-                        rawAbility = mutant.abilityp / 100 * mutant.atk1p * ((level / 10) + 0.9);
-                    }
-                    break;
             }
         } else if (mutant.type === "Gacha") {
             // Extra lógica para el cálculo de Gacha (esto es solo un ejemplo)
@@ -322,9 +312,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 mutantImage.src = baseImageUrl.replace(".png", "_spring.png");
             } else if (starLevel === "Autumn") {
                 mutantImage.src = baseImageUrl.replace(".png", "_autumn.png");
-            } else if (starLevel === "Winter") {
-                mutantImage.src = baseImageUrl.replace(".png", "_winter.png");
-            } else if (starLevel === "Winter Bug") {
+            } else if (starLevel === "Winter" || starLevel === "Winter Bug") {
                 mutantImage.src = baseImageUrl.replace(".png", "_winter.png");
             } else if (starLevel === "Summer") {
                 mutantImage.src = baseImageUrl.replace(".png", "_summer.png");
