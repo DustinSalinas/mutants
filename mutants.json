@@ -976,7 +976,7 @@
     },
     "Specimen_CF_10": {
         "id": "CF_10",
-        "name": "Tsar Bomba",
+        "name": "Arelvam",
         "nameEsp": "Arelvam",
         "type": "Legendary",
         "nameAbility":"Retaliate",
@@ -993,7 +993,7 @@
         "id": "CE_09",
         "name": "Tsar Bomba",
         "nameEsp": "Zar Bomba",
-        "type": "Heroic",
+        "type": "Legendary",
         "nameAbility":"Retaliate",
         "speed": 4.35,
         "life": 1867,
