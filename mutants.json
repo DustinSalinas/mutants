@@ -974,6 +974,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_DA_10": {
+        "id": "DA_10",
+        "name": "Hawkeye",
+        "nameEsp": "Hawkeye",
+        "type": "Legendary",
+        "nameAbility":"Wound",
+        "speed": 7.14,
+        "life": 1408,
+        "atk1p": 643,
+        "ability": 20,
+        "abilityp": 45,
+        "atk2p": 643,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_da_10.png"
+    },
     "Specimen_EE_09": {
         "id": "EE_09",
         "name": "Megastral",
@@ -981,7 +996,7 @@
         "type": "Legendary",
         "nameAbility":"Boost",
         "speed": 3.57,
-        "life": 2538,
+        "life": 2539,
         "atk1p": 1351,
         "ability": 10,
         "abilityp": 30,
