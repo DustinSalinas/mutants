@@ -974,6 +974,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_EE_09": {
+        "id": "EE_09",
+        "name": "Megastral",
+        "nameEsp": "Megastral",
+        "type": "Legendary",
+        "nameAbility":"Boost",
+        "speed": 3.57,
+        "life": 2031,
+        "atk1p": 1081,
+        "ability": 10,
+        "abilityp": 25,
+        "atk2p": 540,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ee_09.png"
+    },
     "Specimen_FF_09": {
         "id": "FF_09",
         "name": "Liquidator",
