@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (mutant.stars) {
             if (mutant.name === "Vivaldi" || mutant.nameEsp === "Vivaldi") {
                 // Si el mutante es de tipo Gacha, solo mostrar la opción "Gacha"
-                const seasons = ["Autumn", "Seasonal", "Spring", "Summer", "Winter"];
+                const seasons = ["Autumn", "Seasonal", "Spring", "Summer", "Winter", "Winter Bug"];
                 seasons.forEach(season => {
                     const option = document.createElement("option");
                     option.value = season;
