@@ -974,6 +974,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_BF_10": {
+        "id": "BF_10",
+        "name": "The Undertaker",
+        "nameEsp": "El Enterrador",
+        "type": "Gacha",
+        "nameAbility":"Wound",
+        "speed": 3.33,
+        "life": 2789.5,
+        "atk1p": 1283.5,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 1283.5,
+        "stars": ["Gacha"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_bf_10_western.png"
+    },
     "Specimen_FA_09": {
         "id": "FA_09",
         "name": "Zenguru",
@@ -1000,7 +1015,7 @@
         "atk1p": 679,
         "ability": 10,
         "abilityp": 15,
-        "atk2p": 390,
+        "atk2p": 391,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_aa_09.png"
     },
