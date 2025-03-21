@@ -982,10 +982,10 @@
         "nameAbility":"Boost",
         "speed": 3.57,
         "life": 2431,
-        "atk1p": 1381,
+        "atk1p": 1350,
         "ability": 15,
         "abilityp": 35,
-        "atk2p": 740,
+        "atk2p": 650,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ee_09.png"
     },
