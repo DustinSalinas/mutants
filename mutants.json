@@ -981,11 +981,11 @@
         "type": "Legendary",
         "nameAbility":"Boost",
         "speed": 3.57,
-        "life": 2431,
+        "life": 2531,
         "atk1p": 1351,
         "ability": 10,
         "abilityp": 30,
-        "atk2p": 661,
+        "atk2p": 671,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ee_09.png"
     },
