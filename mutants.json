@@ -974,6 +974,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_FE_09": {
+        "id": "FE_09",
+        "name": "Xeleroth",
+        "nameEsp": "Xeleroth",
+        "type": "Legendary",
+        "nameAbility":"Weaken",
+        "speed": 3.45,
+        "life": 2145,
+        "atk1p": 1153,
+        "ability": 10,
+        "abilityp": 50,
+        "atk2p": 1153,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fe_09.png"
+    },
     "Specimen_BA_09": {
         "id": "BA_09",
         "name": "Excavalypse",
