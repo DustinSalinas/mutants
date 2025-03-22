@@ -984,7 +984,7 @@
         "life": 2145,
         "atk1p": 1153,
         "ability": 10,
-        "abilityp": 50,
+        "abilityp": 20,
         "atk2p": 1153,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fe_09.png"
@@ -999,7 +999,7 @@
         "life": 2380,
         "atk1p": 1221,
         "ability": 10,
-        "abilityp": 50,
+        "abilityp": 40,
         "atk2p": 1221,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ba_09.png"
