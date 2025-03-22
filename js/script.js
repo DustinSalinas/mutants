@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (mutant.stars) {
             if (mutant.name === "Vivaldi" || mutant.nameEsp === "Vivaldi") {
                 // Si el mutante es de tipo Gacha, solo mostrar la opción "Gacha"
-                const seasons = ["Autumn", "Seasonal", "Spring", "Summer", "Winter", "Winter Bug"];
+                const seasons = ["Base", "Spring", "Autumn", "Winter", "Summer", "Seasonal"];
                 seasons.forEach(season => {
                     const option = document.createElement("option");
                     option.value = season;
@@ -119,6 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
             typeImage = "images/pvp.png";
         } else if (mutant.type === "Bingo") {
             typeImage = "images/bingo.png";
+        } else if (mutant.type === "Community") {
+            typeImage = "images/community.png";
         }
 
         const mutantIdPrefix = mutant.id.split("_")[0].toLowerCase();
@@ -207,6 +209,16 @@ document.addEventListener("DOMContentLoaded", () => {
                         rawAbility = mutant.ability / 100 * 1170 * ((level / 10) + 0.9);
                     } else {
                         rawAbility = mutant.abilityp / 100 * 1170 * ((level / 10) + 0.9);
+                    }
+                    break;
+                case "Base":
+                    rawLife = mutant.life * ((level / 10) + 0.9);
+                    rawAtk1p = mutant.atk1p * ((level / 10) + 0.9);
+                    rawAtk2p = mutant.atk2p * ((level / 10) + 0.9);
+                    if (level < 25) {
+                        rawAbility = mutant.ability / 100 * mutant.atk1p * ((level / 10) + 0.9);
+                    } else {
+                        rawAbility = mutant.abilityp / 100 * mutant.atk1p * ((level / 10) + 0.9);
                     }
                     break;
             }
@@ -312,7 +324,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 mutantImage.src = baseImageUrl.replace(".png", "_spring.png");
             } else if (starLevel === "Autumn") {
                 mutantImage.src = baseImageUrl.replace(".png", "_autumn.png");
-            } else if (starLevel === "Winter" || starLevel === "Winter Bug") {
+            } else if (starLevel === "Winter") {
+                mutantImage.src = baseImageUrl.replace(".png", "_winter.png");
+            } else if (starLevel === "Winter Bug") {
                 mutantImage.src = baseImageUrl.replace(".png", "_winter.png");
             } else if (starLevel === "Summer") {
                 mutantImage.src = baseImageUrl.replace(".png", "_summer.png");
@@ -341,7 +355,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let mutantImageUrl;
             if (["Legendary", "Heroic", "Bingo", "Secret", "PvP"].includes(mutant.type)) {
                 mutantImageUrl = `https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_${mutant.id.toLowerCase()}_platinum.png`;
-            } else if (["Exclusive", "Seasonal", "VideoGame", "Gacha"].includes(mutant.type)) {
+            } else if (["Exclusive", "Seasonal", "VideoGame", "Community", "Gacha"].includes(mutant.type)) {
                 mutantImageUrl = `https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_${mutant.id.toLowerCase()}.png`;
             } else if (mutant.type === "Zodiac") {
                 mutantImageUrl = `https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_${mutant.id.toLowerCase()}_silver.png`;
@@ -369,6 +383,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 typeImageUrl = "images/bingo.png";
             } else if (mutant.type === "Secret") {
                 typeImageUrl = "images/secret.png";
+            } else if (mutant.type === "Community") {
+                typeImageUrl = "images/community.png";
             }
 
             // Aquí extraemos los genes de la ID del mutante
