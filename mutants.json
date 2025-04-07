@@ -967,10 +967,10 @@
         "nameAbility":"Wound",
         "speed": 3.85,
         "life": 1894,
-        "atk1p": 845,
+        "atk1p": 835,
         "ability": 10,
         "abilityp": 40,
-        "atk2p": 840,
+        "atk2p": 830,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fd_08.png"
     },
