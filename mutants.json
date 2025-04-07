@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_FA_99": {
+        "id": "FA_99",
+        "name": "Archangel",
+        "nameEsp": "Arcangel",
+        "type": "Exclusive",
+        "nameAbility":"Shield",
+        "speed": 3.85,
+        "life": 4198,
+        "atk1p": 1862,
+        "ability": 10,
+        "abilityp": 15,
+        "atk2p": 1862,
+        "stars": ["No Star"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fa_99.png"
+    },
     "Specimen_EB_99": {
         "id": "EB_99",
         "name": "Diablo",
