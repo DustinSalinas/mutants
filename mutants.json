@@ -981,10 +981,10 @@
         "type": "Legendary",
         "nameAbility":"Retaliate",
         "speed": 3.57,
-        "life": 1855,
+        "life": 1857,
         "atk1p": 1040,
         "ability": 10,
-        "abilityp": 25,
+        "abilityp": 30,
         "atk2p": 1040,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cf_09.png"
