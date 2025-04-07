@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_DC_08": {
+        "id": "DC_08",
+        "name": "Sanik",
+        "nameEsp": "Sanik",
+        "type": "Legendary",
+        "nameAbility":"Wound",
+        "speed": 5.88,
+        "life": 2369,
+        "atk1p": 550,
+        "ability": 40,
+        "abilityp": 50,
+        "atk2p": 550,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_dc_08.png"
+    },
     "Specimen_BB_07": {
         "id": "BB_07",
         "name": "Necroparasyte",
@@ -985,7 +1000,7 @@
         "atk1p": 715,
         "ability": 25,
         "abilityp": 50,
-        "atk2p": 408,
+        "atk2p": 409,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_aa_07.png"
     },
