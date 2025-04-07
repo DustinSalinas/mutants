@@ -966,11 +966,11 @@
         "type": "Exclusive",
         "nameAbility":"Boost",
         "speed": 3.33,
-        "life": 3597,
-        "atk1p": 2223,
+        "life": 3796,
+        "atk1p": 2523,
         "ability": 10,
         "abilityp": 30,
-        "atk2p": 2223,
+        "atk2p": 2823,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_eb_99.png"
     },
@@ -984,7 +984,7 @@
         "life": 2752,
         "atk1p": 1002,
         "ability": 10,
-        "abilityp": 30,
+        "abilityp": 25,
         "atk2p": 1002,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cd_08.png"
