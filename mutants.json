@@ -961,7 +961,7 @@
     },
     "Specimen_BB_07": {
         "id": "BB_07",
-        "name": "Necroparasyte"
+        "name": "Necroparasyte",
         "nameEsp": "Necroparasito",
         "type": "Legendary",
         "nameAbility":"Regeneration",
