@@ -967,10 +967,10 @@
         "nameAbility":"Shield",
         "speed": 5.26,
         "life": 2569,
-        "atk1p": 875,
+        "atk1p": 873,
         "ability": 10,
-        "abilityp": 30,
-        "atk2p": 875,
+        "abilityp": 40,
+        "atk2p": 872,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ad_09.png"
     },
