@@ -960,13 +960,13 @@
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
     "Specimen_ED_08": {
-        "id": "EFD_08",
+        "id": "ED_08",
         "name": "Sgt. Pandamonium",
         "nameEsp": "Sgt. Pandamonium",
         "type": "Legendary",
         "nameAbility":"Wound",
         "speed": 7.14,
-        "life": 1366,
+        "life": 1571,
         "atk1p": 637,
         "ability": 10,
         "abilityp": 40,
