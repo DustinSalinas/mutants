@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_CD_08": {
+        "id": "CD_08",
+        "name": "Drall",
+        "nameEsp": "Drall",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 4.00,
+        "life": 2752,
+        "atk1p": 1002,
+        "ability": 10,
+        "abilityp": 40,
+        "atk2p": 1002,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cd_08.png"
+    },
     "Specimen_DC_07": {
         "id": "DC_07",
         "name": "Noren",
