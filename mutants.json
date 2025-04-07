@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_FF_08": {
+        "id": "FF_08",
+        "name": "Firestorm",
+        "nameEsp": "Tormenta de Fuego",
+        "type": "Legendary",
+        "nameAbility":"Weaken",
+        "speed": 6.25,
+        "life": 1672,
+        "atk1p": 512,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 256,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ff_08.png"
+    },
     "Specimen_EE_08": {
         "id": "EE_08",
         "name": "Golemagnus",
