@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_EB_08": {
+        "id": "EB_08",
+        "name": "Dr. Nucleus",
+        "nameEsp": "Dr. Nucleus",
+        "type": "Exclusive",
+        "nameAbility":"Boost",
+        "speed": 3.85,
+        "life": 3931,
+        "atk1p": 1975,
+        "ability": 10,
+        "abilityp": 25,
+        "atk2p": 1975,
+        "stars": ["No Star"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_eb_08.png"
+    },
     "Specimen_CF_09": {
         "id": "CF_09",
         "name": "The Keymaster",
@@ -969,7 +984,7 @@
         "life": 1855,
         "atk1p": 1040,
         "ability": 10,
-        "abilityp": 20,
+        "abilityp": 25,
         "atk2p": 1040,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cf_09.png"
