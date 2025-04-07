@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_CF_09": {
+        "id": "CF_09",
+        "name": "The Keymaster",
+        "nameEsp": "Amo de las Llaves",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 3.57,
+        "life": 1727,
+        "atk1p": 966,
+        "ability": 10,
+        "abilityp": 30,
+        "atk2p": 966,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cf_09.png"
+    },
     "Specimen_AD_09": {
         "id": "AD_09",
         "name": "Carcinus Gigas",
@@ -970,7 +985,7 @@
         "atk1p": 873,
         "ability": 10,
         "abilityp": 40,
-        "atk2p": 872,
+        "atk2p": 873,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ad_09.png"
     },
