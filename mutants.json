@@ -966,10 +966,10 @@
         "type": "Exclusive",
         "nameAbility":"Wound",
         "speed": 3.70,
-        "life": 4040,
+        "life": 4038,
         "atk1p": 2194,
         "ability": 10,
-        "abilityp": 40,
+        "abilityp": 35,
         "atk2p": 2194,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_dc_07.png"
