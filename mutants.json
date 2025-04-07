@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_FD_08": {
+        "id": "FD_08",
+        "name": "Omikami",
+        "nameEsp": "Omikami",
+        "type": "Legendary",
+        "nameAbility":"Wound",
+        "speed": 3.85,
+        "life": 1697,
+        "atk1p": 852,
+        "ability": 10,
+        "abilityp": 25,
+        "atk2p": 852,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fd_08.png"
+    },
     "Specimen_CA_08": {
         "id": "CA_08",
         "name": "Makino",
@@ -970,7 +985,7 @@
         "atk1p": 786,
         "ability": 10,
         "abilityp": 25,
-        "atk2p": 787,
+        "atk2p": 786,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ca_08.png"
     },
