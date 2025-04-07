@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_BB_07": {
+        "id": "BB_07",
+        "name": "Necroparasyte"
+        "nameEsp": "Necroparasito",
+        "type": "Legendary",
+        "nameAbility":"Regeneration",
+        "speed": 6.67,
+        "life": 2219,
+        "atk1p": 461,
+        "ability": 30,
+        "abilityp": 55,
+        "atk2p": 265,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_bb_07.png"
+    },
     "Specimen_AA_07": {
         "id": "AA_07",
         "name": "Project 3V3",
