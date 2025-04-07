@@ -985,7 +985,7 @@
         "atk1p": 640,
         "ability": 20,
         "abilityp": 30,
-        "atk2p": 374,
+        "atk2p": 365,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ff_08.png"
     },
