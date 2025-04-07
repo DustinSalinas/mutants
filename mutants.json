@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_DF_08": {
+        "id": "DF_08",
+        "name": "Chantecler",
+        "nameEsp": "Chantecler",
+        "type": "Heroic",
+        "nameAbility":"Wound",
+        "speed": 3.57,
+        "life": 1522,
+        "atk1p": 1330,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 1330,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_df_08.png"
+    },
     "Specimen_EB_08": {
         "id": "EB_08",
         "name": "Dr. Nucleus",
@@ -967,10 +982,10 @@
         "nameAbility":"Boost",
         "speed": 3.85,
         "life": 4234,
-        "atk1p": 2000,
+        "atk1p": 2100,
         "ability": 10,
         "abilityp": 25,
-        "atk2p": 2000,
+        "atk2p": 2050,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_eb_08.png"
     },
