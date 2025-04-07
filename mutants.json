@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_CA_08": {
+        "id": "CA_08",
+        "name": "Makino",
+        "nameEsp": "Makino",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 8.33,
+        "life": 1131,
+        "atk1p": 365,
+        "ability": 20,
+        "abilityp": 40,
+        "atk2p": 365,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ca_08.png"
+    },
     "Specimen_DF_08": {
         "id": "DF_08",
         "name": "Chantecler",
@@ -984,8 +999,8 @@
         "life": 4234,
         "atk1p": 2127,
         "ability": 10,
-        "abilityp": 30,
-        "atk2p": 2125,
+        "abilityp": 25,
+        "atk2p": 2127,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_eb_08.png"
     },
