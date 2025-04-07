@@ -959,6 +959,36 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_AA_07": {
+        "id": "AA_07",
+        "name": "Project 3V3",
+        "nameEsp": "Proyecto 3V3",
+        "type": "Legendary",
+        "nameAbility":"Shield",
+        "speed": 9.09,
+        "life": 1235,
+        "atk1p": 411,
+        "ability": 25,
+        "abilityp": 50,
+        "atk2p": 205,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_aa_07.png"
+    },
+    "Specimen_AC_09": {
+        "id": "AC_09",
+        "name": "Optimus Zord",
+        "nameEsp": "Optimus Zord",
+        "type": "Legendary",
+        "nameAbility":"Retailate",
+        "speed": 6.25,
+        "life": 1761,
+        "atk1p": 567,
+        "ability": 15,
+        "abilityp": 25,
+        "atk2p": 567,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ac_09.png"
+    },
     "Specimen_BD_09": {
         "id": "BD_09",
         "name": "Faucesnegras",
