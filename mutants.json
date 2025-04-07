@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_EB_99": {
+        "id": "EB_99",
+        "name": "Diablo",
+        "nameEsp": "Diablo",
+        "type": "Exclusive",
+        "nameAbility":"Boost",
+        "speed": 3.33,
+        "life": 3597,
+        "atk1p": 2223,
+        "ability": 10,
+        "abilityp": 30,
+        "atk2p": 2223,
+        "stars": ["No Star"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_eb_99.png"
+    },
     "Specimen_CD_08": {
         "id": "CD_08",
         "name": "Drall",
