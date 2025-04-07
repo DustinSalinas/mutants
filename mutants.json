@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_AD_09": {
+        "id": "AD_09",
+        "name": "Carcinus Gigas",
+        "nameEsp": "Carcinus Gigas",
+        "type": "Legendary",
+        "nameAbility":"Shield",
+        "speed": 5.26,
+        "life": 2569,
+        "atk1p": 875,
+        "ability": 10,
+        "abilityp": 30,
+        "atk2p": 875,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ad_09.png"
+    },
     "Specimen_DC_08": {
         "id": "DC_08",
         "name": "Sanik",
