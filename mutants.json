@@ -966,7 +966,7 @@
         "type": "Exclusive",
         "nameAbility":"Wound",
         "speed": 3.70,
-        "life": 4045,
+        "life": 4040,
         "atk1p": 2194,
         "ability": 10,
         "abilityp": 40,
