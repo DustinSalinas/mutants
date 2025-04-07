@@ -966,11 +966,11 @@
         "type": "Legendary",
         "nameAbility":"Retaliate",
         "speed": 8.33,
-        "life": 1131,
-        "atk1p": 365,
+        "life": 1031,
+        "atk1p": 565,
         "ability": 20,
         "abilityp": 40,
-        "atk2p": 365,
+        "atk2p": 665,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ca_08.png"
     },
@@ -999,7 +999,7 @@
         "life": 4234,
         "atk1p": 2127,
         "ability": 10,
-        "abilityp": 25,
+        "abilityp": 30,
         "atk2p": 2127,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_eb_08.png"
