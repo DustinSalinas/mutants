@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_ED_08": {
+        "id": "EFD_08",
+        "name": "Sgt. Pandamonium",
+        "nameEsp": "Sgt. Pandamonium",
+        "type": "Legendary",
+        "nameAbility":"Wound",
+        "speed": 7.14,
+        "life": 1366,
+        "atk1p": 637,
+        "ability": 10,
+        "abilityp": 40,
+        "atk2p": 637,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ed_08.png"
+    },
     "Specimen_FD_08": {
         "id": "FD_08",
         "name": "Omikami",
