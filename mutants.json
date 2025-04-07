@@ -959,6 +959,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fc_09_fantasy.png"
     },
+    "Specimen_DC_07": {
+        "id": "DC_07",
+        "name": "Noren",
+        "nameEsp": "Noren",
+        "type": "Exclusive",
+        "nameAbility":"Wound",
+        "speed": 3.70,
+        "life": 3749,
+        "atk1p": 2037,
+        "ability": 10,
+        "abilityp": 40,
+        "atk2p": 2037,
+        "stars": ["No Star"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_dc_07.png"
+    },
     "Specimen_ED_08": {
         "id": "ED_08",
         "name": "Sgt. Pandamonium",
