@@ -4462,10 +4462,10 @@
         "nameAbility":"Boost",
         "speed": 7.41,
         "life": 3088,
-        "atk1p": 1,
+        "atk1p": 1755,
         "ability": 10,
         "abilityp": 25,
-        "atk2p": 1,
+        "atk2p": 1755,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_da_14.png"
     }
