@@ -4468,5 +4468,20 @@
         "atk2p": 1755,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_da_14.png"
+    },
+    "Specimen_c_14": {
+        "id": "C_14",
+        "name": "Gladiator",
+        "nameEsp": "Gladiador",
+        "type": "Legendary",
+        "nameAbility":"Shield",
+        "speed": 4.35,
+        "life": 2144,
+        "atk1p": 1086,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 1086,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_c_14.png"
     }
 }
