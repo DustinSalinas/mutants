@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Define los grupos de IDs especiales
         const invertedGeneIds = ["EC_13"]; // Genes invertidos
-        const doubleNeutralIds = ["FF_05""]; // Dos ataques neutros
+        const doubleNeutralIds = ["FF_05"]; // Dos ataques neutros
         const invertedSingleGeneIds = ["D_13"]; // Un solo gen, pero visualmente invertido
         const doubleSameGeneIds = ["C_14", "E_13"]; // Un solo gen repetido normalmente
         
