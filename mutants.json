@@ -914,6 +914,21 @@
         "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ab_05_gachaboss.png"
     },
+    "Specimen_CC_03": {
+        "id": "CC_03",
+        "name": "Zena",
+        "nameEsp": "Zena",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 11.11,
+        "life": 985,
+        "atk1p": 243,
+        "ability": 15,
+        "abilityp": 25,
+        "atk2p": 122,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cc_03.png"
+    },
     "Specimen_BD_99": {
         "id": "BD_99",
         "name": "Tengu",
@@ -928,6 +943,21 @@
         "atk2p": 737,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_bd_99.png"
+    },
+    "Specimen_FF_05": {
+        "id": "FF_05",
+        "name": "Glubber",
+        "nameEsp": "Glubber",
+        "type": "Legendary",
+        "nameAbility":"Weaken",
+        "speed": 7.14,
+        "life": 1831,
+        "atk1p": 431,
+        "ability": 25,
+        "abilityp": 28,
+        "atk2p": 215,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ff_05.png"
     },
     "Specimen_EC_06": {
         "id": "EC_06",
