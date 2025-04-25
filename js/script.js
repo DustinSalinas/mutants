@@ -128,35 +128,41 @@ document.addEventListener("DOMContentLoaded", () => {
         const atk2Letter = mutantIdPrefix.charAt(1); // La segunda letra del ID (si existe)
 
         // Define los grupos de IDs especiales
-        const invertedGeneIds = ["EC_13", "BA_07"]; // Genes invertidos normales
-        const doubleNeutralIds = ["FF_05", "FZ_22"]; // Dos ataques neutros
-        const invertedSingleGeneIds = ["C_14", "E_13"]; // Un solo gen, pero invertido visualmente
+        const invertedGeneIds = ["EC_13"]; // Genes invertidos
+        const doubleNeutralIds = ["FF_05""]; // Dos ataques neutros
+        const invertedSingleGeneIds = ["D_13"]; // Un solo gen, pero visualmente invertido
+        const doubleSameGeneIds = ["C_14", "E_13"]; // Un solo gen repetido normalmente
         
         let gene1Images = '';
         let gene2Images = '';
         
         if (doubleNeutralIds.includes(mutant.id)) {
-            // Mutantes con dos genes neutros
+            // Dos ataques neutros
             gene1Images = `<img src="images/gene_all.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_all.png" alt="Gene 2" width="30">`;
         
         } else if (invertedGeneIds.includes(mutant.id)) {
-            // Genes invertidos normales
+            // Genes invertidos
             gene1Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
         
         } else if (invertedSingleGeneIds.includes(mutant.id)) {
-            // Un solo gen, pero mostrado dos veces en orden invertido
+            // Un solo gen mostrado invertido (repite pero visualmente invertido)
+            gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
+            gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
+        
+        } else if (doubleSameGeneIds.includes(mutant.id)) {
+            // Mismo gen dos veces, mostrado normalmente
             gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
         
         } else if (atk2Letter) {
-            // Genes normales, dos letras diferentes
+            // Dos genes diferentes
             gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 2" width="30">`;
         
         } else {
-            // Un solo gen, mostrado normalmente
+            // Un solo gen (por defecto muestra uno y gene_all)
             gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_all.png" alt="Gene 2" width="30">`;
         }
