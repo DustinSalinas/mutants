@@ -127,32 +127,30 @@ document.addEventListener("DOMContentLoaded", () => {
         const atk1Letter = mutantIdPrefix.charAt(0); // La primera letra del ID
         const atk2Letter = mutantIdPrefix.charAt(1); // La segunda letra del ID (si existe)
 
-        // Crear el bloque de imágenes dinámicamente
+        // Define IDs con genes invertidos y con genes completamente neutros
+        const invertedGeneIds = ["EC_13", "BA_07"]; // <-- Añade aquí los IDs con genes invertidos
+        const doubleNeutralIds = ["FF_05"]; // <-- Añade aquí los IDs con dos ataques neutros
+        
         let gene1Images = '';
         let gene2Images = '';
         
-        if (atk2Letter) {
-            // Si hay dos letras, mostramos ambas imágenes
-            gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
-            gene2Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 2" width="30">`;
-        } else if (mutant.id === "C_14" || mutant.id === "E_13") {
-            // Si solo tiene ambos ataques del mismo gen
-            gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
-            gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
-        } else if (mutant.id === "D_13") {
-            // Si solo comienza con ataque neutro
-            gene1Images = `<img src="images/gene_all.png" alt="Gene 1" width="30">`;
-            gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
-        } else if (mutant.id === "EC_13") {
-            // Si solo tiene ataques invertidos
-            gene1Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 1" width="30">`;
-            gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
-        } else if (mutant.id === "FF_05") {
-            // Si solo tiene ataques neutros
+        if (doubleNeutralIds.includes(mutant.id)) {
+            // Si el ID tiene dos ataques neutros
             gene1Images = `<img src="images/gene_all.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_all.png" alt="Gene 2" width="30">`;
+        
+        } else if (invertedGeneIds.includes(mutant.id)) {
+            // Si el ID tiene genes invertidos
+            gene1Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 1" width="30">`;
+            gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
+        
+        } else if (atk2Letter) {
+            // Caso normal: dos genes distintos
+            gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
+            gene2Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 2" width="30">`;
+        
         } else {
-            // Si solo hay una letra, mostramos solo esa imagen
+            // Solo hay una letra
             gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_all.png" alt="Gene 2" width="30">`;
         }
