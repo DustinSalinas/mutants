@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         } else if (invertedSingleGeneIds.includes(mutant.id)) {
             // Un solo gen mostrado invertido (repite pero visualmente invertido)
-            gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
+            gene1Images = `<img src="images/gene_all.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
         
         } else if (doubleSameGeneIds.includes(mutant.id)) {
