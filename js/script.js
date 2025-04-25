@@ -130,6 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Define los grupos de IDs especiales
         const invertedGeneIds = ["EC_13"]; // Genes invertidos
         const doubleNeutralIds = ["FF_05"]; // Dos ataques neutros
+        const GenIdMissy = ["CA_99"]; // Para Missy
         const invertedSingleGeneIds = ["D_13"]; // Un solo gen, pero visualmente invertido
         const doubleSameGeneIds = ["C_14", "E_13"]; // Un solo gen repetido normalmente
         
@@ -145,6 +146,11 @@ document.addEventListener("DOMContentLoaded", () => {
             // Genes invertidos
             gene1Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
+        
+        } else if (GenIdMissy.includes(mutant.id)) {
+            // Genes invertidos
+            gene1Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 1" width="30">`;
+            gene2Images = `<img src="images/gene_e.png" alt="Gene 2" width="30">`;
         
         } else if (invertedSingleGeneIds.includes(mutant.id)) {
             // Un solo gen mostrado invertido (repite pero visualmente invertido)
