@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const atk2Letter = mutantIdPrefix.charAt(1); // La segunda letra del ID (si existe)
 
         // Define los grupos de IDs especiales
-        const invertedGeneIds = ["EC_13". "FD_12"]; // Genes invertidos
+        const invertedGeneIds = ["EC_13", "FD_12"]; // Genes invertidos
         const doubleNeutralIds = ["FF_05"]; // Dos ataques neutros
         const GenIdMissy = ["CA_99"]; // Para Missy
         const invertedSingleGeneIds = ["D_13"]; // Un solo gen, pero visualmente invertido
