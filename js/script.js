@@ -139,7 +139,11 @@ document.addEventListener("DOMContentLoaded", () => {
             // Si solo hay una letra, mostramos solo esa imagen
             gene1Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
-        } else if (mutant.id === "EC_13" || mutant.id === "D_13") {
+        } else if (mutant.id === "D_13") {
+            // Si solo hay una letra, mostramos solo esa imagen
+            gene1Images = `<img src="images/gene_all.png" alt="Gene 1" width="30">`;
+            gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
+        } else if (mutant.id === "EC_13") {
             gene1Images = `<img src="images/gene_${atk2Letter}.png" alt="Gene 1" width="30">`;
             gene2Images = `<img src="images/gene_${atk1Letter}.png" alt="Gene 2" width="30">`;
         } else {
