@@ -924,7 +924,7 @@
         "life": 846,
         "atk1p": 501,
         "ability": 15,
-        "abilityp": 25,
+        "abilityp": 20,
         "atk2p": 350,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cc_03.png"
@@ -953,8 +953,8 @@
         "speed": 7.14,
         "life": 1831,
         "atk1p": 860,
-        "ability": 25,
-        "abilityp": 28,
+        "ability": 20,
+        "abilityp": 23,
         "atk2p": 860,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ff_05.png"
