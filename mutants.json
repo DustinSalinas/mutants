@@ -6013,5 +6013,20 @@
         "atk2p": 1124,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_c_14.png"
+    },
+    "Specimen_ED_14": {
+        "id": "ED_14",
+        "name": "Proximamente",
+        "nameEsp": "Proximamente",
+        "type": "Legendary",
+        "nameAbility":"Boost",
+        "speed": 5.00,
+        "life": 1130,
+        "atk1p": 468,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 468,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ed_14.png"
     }
 }
