@@ -1874,6 +1874,21 @@
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_de_04.png"
     },
+    "Specimen_AB_04": {
+        "id": "AB_04",
+        "name": "Commander Ender",
+        "nameEsp": "Commander Ender",
+        "type": "Legendary",
+        "nameAbility":"Regeneration",
+        "speed": 3.85,
+        "life": 1846,
+        "atk1p": 854,
+        "ability": 25,
+        "abilityp": 38,
+        "atk2p": 854,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ab_04.png"
+    },
     "Specimen_CE_04": {
         "id": "CE_04",
         "name": "Apex",
