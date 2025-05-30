@@ -1874,6 +1874,36 @@
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_de_04.png"
     },
+    "Specimen_AD_04": {
+        "id": "AD_04",
+        "name": "Deathcon 1",
+        "nameEsp": "Malvatron",
+        "type": "Legendary",
+        "nameAbility":"Shield",
+        "speed": 7.14,
+        "life": 1553,
+        "atk1p": 504,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 504,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ad_04.png"
+    },
+    "Specimen_CC_04": {
+        "id": "CC_04",
+        "name": "Lara",
+        "nameEsp": "Lara",
+        "type": "VideoGame",
+        "nameAbility":"Retaliate",
+        "speed": 9.09,
+        "life": 2851,
+        "atk1p": 654,
+        "ability": 15,
+        "abilityp": 25,
+        "atk2p": 375,
+        "stars": ["No Star"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cc_04.png"
+    },
     "Specimen_AB_04": {
         "id": "AB_04",
         "name": "Commander Ender",
