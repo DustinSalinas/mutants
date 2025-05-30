@@ -1106,7 +1106,7 @@
         "ability": 30,
         "abilityp": 50,
         "atk2p": 554.5,
-        "stars": ["No Star"],
+        "stars": ["Gacha"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ef_02.png"
     },
     "Specimen_EF_03": {
@@ -1903,6 +1903,21 @@
         "atk2p": 737,
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_bd_99.png"
+    },
+    "Specimen_CE_05": {
+        "id": "CE_05",
+        "name": "Sun-Duke",
+        "nameEsp": "Sun-Duke",
+        "type": "Gacha",
+        "nameAbility":"Weaken",
+        "speed": 6.33,
+        "life": 1405,
+        "atk1p": 496,
+        "ability": 20,
+        "abilityp": 30,
+        "atk2p": 4.96,
+        "stars": ["Gacha"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_ce_05.png"
     },
     "Specimen_E_03": {
         "id": "E_03",
