@@ -1799,6 +1799,36 @@
         "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fa_03.png"
     },
+    "Specimen_FE_04": {
+        "id": "FE_04",
+        "name": "Space Princess",
+        "nameEsp": "Space Princess",
+        "type": "Legendary",
+        "nameAbility":"Weaken",
+        "speed": 7.14,
+        "life": 1254,
+        "atk1p": 407,
+        "ability": 15,
+        "abilityp": 25,
+        "atk2p": 407,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fe_04.png"
+    },
+    "Specimen_FE_03": {
+        "id": "FE_03",
+        "name": "Astro Magician",
+        "nameEsp": "Astromago",
+        "type": "Legendary",
+        "nameAbility":"Weaken",
+        "speed": 4.35,
+        "life": 1602,
+        "atk1p": 737,
+        "ability": 15,
+        "abilityp": 25,
+        "atk2p": 737,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_fe_03.png"
+    },
     "Specimen_A_03": {
         "id": "A_03",
         "name": "Garuda",
@@ -1813,6 +1843,36 @@
         "atk2p": 548,
         "stars": ["No Star"],
         "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_a_03.png"
+    },
+    "Specimen_CF_03": {
+        "id": "CF_03",
+        "name": "Tinker Blade",
+        "nameEsp": "Hada Machete",
+        "type": "Legendary",
+        "nameAbility":"Retaliate",
+        "speed": 9.09,
+        "life": 746,
+        "atk1p": 746,
+        "ability": 15,
+        "abilityp": 25,
+        "atk2p": 746,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_cf_03.png"
+    },
+    "Specimen_DE_04": {
+        "id": "DE_04",
+        "name": "Genshiryoku",
+        "nameEsp": "Genshiryoku",
+        "type": "Legendary",
+        "nameAbility":"Wound",
+        "speed": 3.57,
+        "life": 1913,
+        "atk1p": 934,
+        "ability": 20,
+        "abilityp": 40,
+        "atk2p": 934,
+        "stars": ["No Star", "Bronze", "Silver", "Gold", "Platinum"],
+        "image": "https://s-ak.kobojo.com/mutants/assets/thumbnails/specimen_de_04.png"
     },
     "Specimen_AB_05": {
         "id": "AB_05",
